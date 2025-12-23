@@ -35,7 +35,7 @@ const App: React.FC = () => {
         </main>
         
         <footer className="py-8 text-center text-gray-600 text-sm border-t border-gray-800 mt-20 relative z-10">
-          <p>© 2024 Jiabao Yao. Built with React, Tailwind & Gemini AI.</p>
+          <p>© 2025 Jiabao Yao. Built with React, Tailwind & Gemini AI.</p>
         </footer>
       </div>
     </Router>

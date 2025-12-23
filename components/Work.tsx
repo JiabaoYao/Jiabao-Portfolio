@@ -6,10 +6,11 @@ const workExperiences = [
     company: "Huawei Technologies Co., Ltd",
     period: "2021 — 2024",
     achievements: [
-      "Enhanced fault detection accuracy by 25% through optimized C/C++ modules and advanced logging mechanisms.",
-      "Automated data export processes with Python, reducing manual effort by 30% and streamlining testing.",
-      "Collaborated with cross-functional teams to design and deploy robust fault detection solutions, ensuring high system reliability and performance.",
-      "Utilized Git, Shell Scripting, and Agile practices for streamlined development cycles."
+      "Designed and implemented software solutions for next-generation hardware fault-detection systems. Authored detailed design documents and built scalable data models on a web platform to support diverse business use cases.",
+      "Developed Python-based data export pipelines for both standardized and custom business scenarios. Enabled developer self-testing through TXT formats and provided YAML-based data sources for seamless integration with mission-critical systems.",
+      "C/C++ development for embedded systems: Engineered core components for hardware fault detection across MCU, SoC, and driver modules. Delivered 20+ fault-warning features for Massive MIMO modules and incorporated energy-saving logic to improve system efficiency.",
+      "Led incident resolution for both online and product issues by identifying root causes and implementing optimized fixes. Improved system performance and code structure through ongoing refactoring and performance tuning.",
+      "Enhanced testing and logging capabilities across new and legacy platforms by adding advanced test interfaces and comprehensive logs. Improved the accuracy and speed of fault localization across hardware systems."
     ]
   },
   {
@@ -38,13 +39,14 @@ const skillIcons = [
   { name: 'HTML', color: '#E34F26', path: 'M12,17.56L16.07,16.43L16.62,10.33H12V8.16H16.82L17.22,3.67H6.78L7.17,8.16H10.19L10.05,10.33H7.38L7.69,13.69L12,14.89V17.56M4.06,2L12,2L19.94,2L18.13,22L12,22L5.87,22L4.06,2Z' },
   { name: 'CSS', color: '#1572B6', path: 'M12,17.56L16.07,16.43L16.62,10.33H12V8.16H16.82L17.22,3.67H6.78L7.17,8.16H10.19L10.05,10.33H7.38L7.69,13.69L12,14.89V17.56M4.06,2L12,2L19.94,2L18.13,22L12,22L5.87,22L4.06,2Z' }, // Using similar shield shape
   { name: 'React', color: '#61DAFB', path: 'M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,4C16.42,4 20,7.58 20,12C20,16.42 16.42,20 12,20C7.58,20 4,16.42 4,12C4,7.58 7.58,4 12,4M12,7C10.5,7 9.15,7.66 8.35,8.7L10.35,10.7C10.6,10.27 11.23,9.8 12,9.8C13.2,9.8 14.2,10.8 14.2,12C14.2,13.2 13.2,14.2 12,14.2C11.23,14.2 10.6,13.73 10.35,13.3L8.35,15.3C9.15,16.34 10.5,17 12,17C14.76,17 17,14.76 17,12C17,9.24 14.76,7 12,7Z' },
+  { name: 'Next.js', color: '#FFFFFF', path: 'M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M9.5,8V16H11.5V10.8L15.3,16H17.2L12.5,9.5L12,8H9.5Z' },
   { name: 'Streamlit', color: '#FF4B4B', path: 'M12,2L2,22H22L12,2M12,6.5L17.5,18H6.5L12,6.5Z' }, // Simplified Crown/Triangle
 
   // Backend
   { name: 'Node.js', color: '#339933', path: 'M12,2L3,7V17L12,22L21,17V7L12,2M16,16L12,18L8,16V11L12,13L16,11V16Z' },
   { name: 'NestJS', color: '#E0234E', path: 'M12 2L2 22H22L12 2M12 6.5L17.5 18H6.5L12 6.5Z' },
   { name: 'Prisma', color: '#2D3748', bg: 'white', path: 'M12,2L2,22H22L12,2M12,6L17,18H7L12,6Z' }, // Triangle Prism
-  { name: 'PostgreSQL', color: '#336791', path: 'M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,6C15.31,6 18,8.69 18,12C18,15.31 15.31,18 12,18C8.69,18 6,15.31 6,12C6,8.69 8.69,6 12,6Z' },
+  // { name: 'PostgreSQL', color: '#336791', path: 'M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,6C15.31,6 18,8.69 18,12C18,15.31 15.31,18 12,18C8.69,18 6,15.31 6,12C6,8.69 8.69,6 12,6Z' },
   { name: 'Docker', color: '#2496ED', path: 'M2,11V16H22V11H2M2,18H22V20H2V18M4,4H8V9H4V4M10,4H14V9H10V4M16,4H20V9H16V4' }, // Simplified Container Ship
 
   // ML

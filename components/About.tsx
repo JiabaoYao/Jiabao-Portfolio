@@ -4,24 +4,17 @@ import { Experience } from '../types';
 const experiences: Experience[] = [
   {
     id: '1',
-    role: 'Software Engineer',
-    company: 'Tech Company',
-    period: '2022 - Present',
+    role: 'Software (Full Stack) Engineer Intern',
+    company: 'Blinkle AI',
+    period: '2025 - 2025',
     description: 'Developing scalable web applications and optimizing frontend performance.'
   },
   {
     id: '2',
-    role: 'Frontend Developer',
-    company: 'Digital Agency',
-    period: '2020 - 2022',
-    description: 'Built responsive user interfaces for various client projects using React and TypeScript.'
-  },
-  {
-    id: '3',
-    role: 'Junior Developer',
-    company: 'Startup Inc',
-    period: '2019 - 2020',
-    description: 'Collaborated with the design team to implement pixel-perfect UI components.'
+    role: 'Software Engineer',
+    company: 'Huawei Technologies Co., Ltd',
+    period: '2021 - 2024',
+    description: 'Professional design and development of architectures, algorithms, and detection mechanisms.'
   }
 ];
 
@@ -33,25 +26,24 @@ const About: React.FC = () => {
         <div className="md:col-span-4">
           <div className="sticky top-28 bg-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-gray-800">
             <img 
-              src="https://picsum.photos/400/400?grayscale" 
+              src="https://techhq.com/wp-content/uploads/2020/10/shutterstock_1096975310.png" 
               alt="Profile" 
               className="w-full aspect-square object-cover rounded-xl mb-6 shadow-xl grayscale hover:grayscale-0 transition-all duration-500"
             />
             <h2 className="text-3xl font-bold mb-2">Jiabao Yao</h2>
             <p className="text-indigo-400 mb-6">Software Engineer</p>
             <p className="text-gray-400 leading-relaxed mb-6">
-              Passionate about building software that solves real-world problems. 
-              Experienced in full-stack development with a focus on modern web technologies.
+              I build fast, reliable software in C/C++ and Python and break complex problems until they behave. Currently specializing in AI—because making machines smarter is more fun than debugging humans.
             </p>
             
             <div className="space-y-2 text-sm text-gray-500">
               <div className="flex justify-between border-b border-gray-800 pb-2">
                 <span>Location</span>
-                <span className="text-gray-300">San Francisco, CA</span>
+                <span className="text-gray-300">Buffalo, NY</span>
               </div>
               <div className="flex justify-between border-b border-gray-800 pb-2 pt-2">
                 <span>Experience</span>
-                <span className="text-gray-300">5+ Years</span>
+                <span className="text-gray-300">3+ Years</span>
               </div>
               <div className="flex justify-between border-b border-gray-800 pb-2 pt-2">
                 <span>Availability</span>
@@ -98,7 +90,7 @@ const About: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* GitHub */}
               <a 
-                href="https://github.com" 
+                href="https://github.com/JiabaoYao" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="group relative p-[1px] rounded-2xl bg-gradient-to-br from-gray-800 to-gray-700 hover:from-gray-500 hover:to-white transition-all duration-500 hover:-translate-y-1 shadow-lg hover:shadow-gray-500/20"
@@ -124,7 +116,7 @@ const About: React.FC = () => {
 
               {/* LinkedIn */}
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/jiabao-yao-46287a287/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="group relative p-[1px] rounded-2xl bg-gradient-to-br from-gray-800 to-gray-700 hover:from-blue-600 hover:to-cyan-400 transition-all duration-500 hover:-translate-y-1 shadow-lg hover:shadow-blue-500/20"
@@ -149,7 +141,7 @@ const About: React.FC = () => {
 
                {/* Twitter */}
                <a 
-                href="https://twitter.com" 
+                href="https://x.com/Emma_yaogaga" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="group relative p-[1px] rounded-2xl bg-gradient-to-br from-gray-800 to-gray-700 hover:from-sky-500 hover:to-indigo-500 transition-all duration-500 hover:-translate-y-1 shadow-lg hover:shadow-sky-500/20"
@@ -174,7 +166,7 @@ const About: React.FC = () => {
 
                {/* Email */}
                <a 
-                href="mailto:hello@jiabaoyao.com" 
+                href="mailto:yaogaga520@gmail.com" 
                 className="group relative p-[1px] rounded-2xl bg-gradient-to-br from-gray-800 to-gray-700 hover:from-emerald-500 hover:to-teal-400 transition-all duration-500 hover:-translate-y-1 shadow-lg hover:shadow-emerald-500/20"
               >
                 <div className="relative h-full bg-gray-900 rounded-2xl p-6 overflow-hidden">
@@ -186,7 +178,7 @@ const About: React.FC = () => {
                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                         </div>
                         <h4 className="text-lg font-bold text-white mb-1 group-hover:text-emerald-200">Email</h4>
-                        <p className="text-sm text-gray-500 group-hover:text-gray-400">hello@jiabaoyao.com</p>
+                        <p className="text-sm text-gray-500 group-hover:text-gray-400">yaogaga520@gmail.com</p>
                       </div>
                       <div className="opacity-0 group-hover:opacity-100 transform translate-x-4 group-hover:translate-x-0 transition-all duration-300">
                         <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
