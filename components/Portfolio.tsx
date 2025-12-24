@@ -8,7 +8,7 @@ const projects: Project[] = [
     id: 'used-car-price-prediction-model',
     title: 'Used Car Price Prediction',
     category: 'Model',
-    imageUrl: '../images/used_car_code.png',
+    imageUrl: '/images/used_car_code.png',
     description: 'A model that predicts used car prices and evaluates the performance of various machine learning methods.',
     link: "https://github.com/montage0921/CSE587-Project-UsedCarPricePrediction/tree/master"
   },
@@ -16,7 +16,7 @@ const projects: Project[] = [
     id: 'sign-language-recognition',
     title: 'Sign Language Recognition',
     category: 'Model',
-    imageUrl: '../images/openpose.jpg',
+    imageUrl: '/images/openpose.jpg',
     description: 'A sign language recognition model trained on the WLASL dataset.',
     link: 'https://github.com/JiabaoYao/Sign-Language-Recognition'
   },
@@ -24,7 +24,7 @@ const projects: Project[] = [
     id: 'movie-database',
     title: 'Movie Database',
     category: 'Database',
-    imageUrl: '../images/supabase.png',
+    imageUrl: '/images/supabase.png',
     description: 'A movie database built using data collected from IMDb and deployed on Supabase.',
     link: 'https://supabase.com/dashboard/project/rnxnnqsyjcircloxrryq/database/schemas'
   },
@@ -32,7 +32,7 @@ const projects: Project[] = [
     id: 'movie-database-dashboard',
     title: 'Movie Database Dashboard',
     category: 'Dashboard',
-    imageUrl: '../images/database.png',
+    imageUrl: '/images/database.png',
     description: 'A movie database built using data collected from IMDb and deployed on Supabase.',
     link: 'https://app.powerbi.com/view?r=eyJrIjoiMTBkZjg1NmMtNDVhNy00YTFkLTk4NTctMzRmNTdhZWRhYmYzIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9'
   },
@@ -40,7 +40,7 @@ const projects: Project[] = [
   id: 'used-car-price-prediction-dashboard',
   title: 'Used Car Price Prediction',
   category: 'Dashboard',
-  imageUrl: '../images/used_car_pred.png',
+  imageUrl: '/images/used_car_pred.png',
   description: 'An end-to-end platform that predicts used car prices and evaluates the performance of various machine learning methods.',
   link: "https://cse587-project-usedcarpriceprediction.onrender.com/"
 },
