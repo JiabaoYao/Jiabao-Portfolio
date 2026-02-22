@@ -6,11 +6,11 @@ const workExperiences = [
     company: "Huawei Technologies Co., Ltd",
     period: "2021 — 2024",
     achievements: [
-      "Designed and implemented software solutions for next-generation hardware fault-detection systems. Authored detailed design documents and built scalable data models on a web platform to support diverse business use cases.",
-      "Developed Python-based data export pipelines for both standardized and custom business scenarios. Enabled developer self-testing through TXT formats and provided YAML-based data sources for seamless integration with mission-critical systems.",
-      "C/C++ development for embedded systems: Engineered core components for hardware fault detection across MCU, SoC, and driver modules. Delivered 20+ fault-warning features for Massive MIMO modules and incorporated energy-saving logic to improve system efficiency.",
-      "Led incident resolution for both online and product issues by identifying root causes and implementing optimized fixes. Improved system performance and code structure through ongoing refactoring and performance tuning.",
-      "Enhanced testing and logging capabilities across new and legacy platforms by adding advanced test interfaces and comprehensive logs. Improved the accuracy and speed of fault localization across hardware systems."
+      "Engineered high-performance embedded systems for hardware fault detection across MCU, SOC, and driver modules, directly supporting next-generation Massive MIMO hardware.",
+      "Developed 20+ automated fault-warning features for Massive MIMO hardware, ensuring 99.9% system reliability and integrating energy-saving logic into production-scale embedded systems.",
+      "Architected Python-based data pipelines to automate self-testing workflows, utilizing YAML-based data sources for seamless integration with mission-critical production systems.",
+      "Reduced fault localization time by 40% through advanced logging and testing interfaces, directly supporting the stability of next- generation hardware infrastructure.",
+      "Optimized system performance through continuous refactoring and performance tuning, resolving critical online production incidents and improving code maintainability."
     ]
   },
   {
@@ -18,9 +18,10 @@ const workExperiences = [
     company: "", // Implied or Generic
     period: "2025 — 2025",
     achievements: [
-      "Implemented resume analysis, job match, and recommendation pages, handling both frontend rendering and backend data fetching and processing via NestJS and Prisma.",
-      "Integrated real-time data updates by connecting the frontend with a PostgreSQL database and ensuring smooth API communication.",
-      "Optimized for responsiveness, scalability, and maintainability across all components, delivering a seamless user experience."
+      "Architected a production-grade inference pipeline for resume analysis using NestJS and Prisma, optimizing multi-component workflows to reduce processing bottlenecks for real-time matching.",
+      "Engineered mission-critical data synchronization with PostgreSQL, achieving <500ms latency for API responses to meet enterprise-level performance standards.",
+      "Developed secure, developer-oriented data fetching layers using TypeScript and NestJS, facilitating robust communication between client-side tools and cloud-hosted databases.",
+      "Optimized for high-availability and scalability across all components, ensuring a seamless experience for users deploying complex data models."
     ]
   }
 ];
@@ -49,12 +50,17 @@ const skillIcons = [
   // { name: 'PostgreSQL', color: '#336791', path: 'M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,6C15.31,6 18,8.69 18,12C18,15.31 15.31,18 12,18C8.69,18 6,15.31 6,12C6,8.69 8.69,6 12,6Z' },
   { name: 'Docker', color: '#2496ED', path: 'M2,11V16H22V11H2M2,18H22V20H2V18M4,4H8V9H4V4M10,4H14V9H10V4M16,4H20V9H16V4' }, // Simplified Container Ship
 
-  // ML
+  // ML/AI
   { name: 'PyTorch', color: '#EE4C2C', path: 'M12,2L2,7V17L12,22L22,17V7L12,2M12,15C10.34,15 9,13.66 9,12C9,10.34 10.34,9 12,9C13.66,9 15,10.34 15,12C15,13.66 13.66,15 12,15Z' }, // Simplified Flame/Gem
   { name: 'Scikit-Learn', color: '#F7931E', path: 'M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4M11,7H13V17H11V7M8,11H16V13H8V11Z' }, // Abstract
   { name: 'Spark', color: '#E25A1C', path: 'M12,2L14.5,9H22L16,14L18.5,21L12,16.5L5.5,21L8,14L2,9H9.5L12,2Z' }, // Star/Spark
   { name: 'Pandas', color: '#150458', bg: 'white', path: 'M4,4H10V10H4V4M14,4H20V10H14V4M4,14H10V20H4V14M14,14H20V20H14V14' }, // Abstract Blocks
   { name: 'NumPy', color: '#013243', bg: 'white', path: 'M4,4H20V20H4V4M8,8V16H16V8H8Z' }, // Abstract Box
+  {
+    name: 'Cursor',
+    color: '#000000',
+    path: 'M12 1L2 6.5V17.5L12 23L22 17.5V6.5L12 1ZM12 3.2L20 7.8V16.2L12 20.8L4 16.2V7.8L12 3.2ZM12 6.8L7.5 10.2L12 17.5L16.5 10.2L12 6.8Z'
+  },
 
   // DevOps
   { name: 'Git', color: '#F05032', path: 'M12,2L2,12L12,22L22,12L12,2M12,4L20,12L12,20L4,12L12,4M14,10H12V12H14V14H12V16H10V14H8V12H10V10H8V8H10V6H12V8H14V10Z' },

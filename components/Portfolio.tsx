@@ -37,13 +37,21 @@ const projects: Project[] = [
     link: 'https://app.powerbi.com/view?r=eyJrIjoiMTBkZjg1NmMtNDVhNy00YTFkLTk4NTctMzRmNTdhZWRhYmYzIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9'
   },
   {
-  id: 'used-car-price-prediction-dashboard',
-  title: 'Used Car Price Prediction',
-  category: 'Dashboard',
-  imageUrl: '/images/used_car_pred.png',
-  description: 'An end-to-end platform that predicts used car prices and evaluates the performance of various machine learning methods.',
-  link: "https://cse587-project-usedcarpriceprediction.onrender.com/"
-},
+    id: 'used-car-price-prediction-dashboard',
+    title: 'Used Car Price Prediction',
+    category: 'Dashboard',
+    imageUrl: '/images/used_car_pred.png',
+    description: 'An end-to-end platform that predicts used car prices and evaluates the performance of various machine learning methods.',
+    link: "https://cse587-project-usedcarpriceprediction.onrender.com/"
+  },
+  {
+    id: 'medical-tracker-dashboard',
+    title: 'Medical Tracker App',
+    category: 'Dashboard',
+    imageUrl: 'https://shop.jessicaautumn.com/cdn/shop/files/108.png?v=1685375767&width=1080',
+    description: 'A Full-Stack Patient Tracker with dual-role authentication, supporting medication logging and administrative oversight, built with a focus on telemedicine scalability.',
+    link: 'https://medflow-plum.vercel.app/'
+  },
 ];
 
 const Portfolio: React.FC = () => {
